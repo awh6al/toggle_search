@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-![](https://cdn.dribbble.com/users/2593078/screenshots/17764882/media/5c6f5e9c078467a70c64be4654e2a10c.mp4)
+![](https://dribbble.com/shots/17764882-Search-Type-Toggle?utm_source=Clipboard_Shot&utm_campaign=nickgraffis&utm_content=Search%20Type%20Toggle&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=nickgraffis&utm_content=Search%20Type%20Toggle&utm_medium=Social_Share)
 
 ## Getting Started
 
