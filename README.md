@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-![Toggle_search](animated_medium20220319-24301-ajlwpu.mp4)
+![](https://cdn.dribbble.com/users/2593078/screenshots/17764882/media/5c6f5e9c078467a70c64be4654e2a10c.mp4)
 
 ## Getting Started
 
