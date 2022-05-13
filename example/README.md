@@ -1,8 +1,6 @@
-# toggle_search
+# example
 
 A new Flutter project.
-
-![](ezgif-1-0aaf4b3213.gif)
 
 ## Getting Started
 

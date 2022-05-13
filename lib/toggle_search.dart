@@ -67,7 +67,7 @@ class _ToggleSearchState extends State<ToggleSearch>
                   },
                   child: rot.AnimatedRotation(
                       curve: Curves.easeInOutBack,
-                      duration: const Duration(milliseconds: 500),
+                      duration: const Duration(milliseconds: 400),
                       angle: _angle,
                       child: Icon(
                         FontAwesomeIcons.magnifyingGlass,
@@ -94,16 +94,4 @@ class _ToggleSearchState extends State<ToggleSearch>
       ),
     );
   }
-}
-
-void main(List<String> args) {
-  runApp(MaterialApp(
-      home: Scaffold(
-    backgroundColor: Color(0xffe6aa0b),
-    body: Center(
-        child: Container(
-      width: 400,
-      child: ToggleSearch(),
-    )),
-  )));
 }
