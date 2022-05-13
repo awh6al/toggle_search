@@ -1,6 +1,6 @@
 # toggle_search
 
-A new Flutter project.
+Search type options by [nick graffis](https://dribbble.com/nickgraffis).
 
 ![](ezgif-1-0aaf4b3213.gif)
 

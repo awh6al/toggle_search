@@ -6,20 +6,17 @@ import 'package:google_fonts/google_fonts.dart';
 
 class ToggleSearch extends StatefulWidget {
   const ToggleSearch(
-      {Key? key,
+      {super.key,
       this.borderRadius = 12,
-      this.fillColor = Colors.white,
       this.iconColor = Colors.black45,
       this.options = const [
         "All",
         "Videos",
         "Images",
         "News",
-      ]})
-      : super(key: key);
+      ]});
 
   final double? borderRadius;
-  final Color? fillColor;
   final Color? iconColor;
 
   final List<String>? options;
@@ -29,8 +26,7 @@ class ToggleSearch extends StatefulWidget {
   State<ToggleSearch> createState() => _ToggleSearchState();
 }
 
-class _ToggleSearchState extends State<ToggleSearch>
-    with SingleTickerProviderStateMixin {
+class _ToggleSearchState extends State<ToggleSearch> {
   num _angle = 0;
   int _index = 0;
 
@@ -38,16 +34,22 @@ class _ToggleSearchState extends State<ToggleSearch>
   Widget build(BuildContext context) {
     return ClipRRect(
       borderRadius: BorderRadius.circular(widget.borderRadius!),
-      child: TextField(
+      child: TextFormField(
+        autofocus: true,
+        showCursor: true,
         style: const TextStyle(
           color: Colors.black87,
           height: 1.3,
+          fontWeight: FontWeight.w600,
         ),
         decoration: InputDecoration(
-          fillColor: widget.fillColor,
+          filled: true,
+          border: InputBorder.none,
+          fillColor: Colors.white,
           prefixIcon: Padding(
             padding: const EdgeInsets.only(left: 18.0),
             child: Row(
+              mainAxisSize: MainAxisSize.min,
               children: [
                 GestureDetector(
                   onTap: () {
@@ -78,8 +80,8 @@ class _ToggleSearchState extends State<ToggleSearch>
                 const SizedBox(width: 9),
                 Text(
                   widget.options![_index],
-                  style: GoogleFonts.inter(
-                    fontWeight: FontWeight.w700,
+                  style: GoogleFonts.montserrat(
+                    fontWeight: FontWeight.w600,
                     color: widget.iconColor,
                     fontSize: 18,
                   ),
@@ -88,8 +90,6 @@ class _ToggleSearchState extends State<ToggleSearch>
               ],
             ),
           ),
-          filled: true,
-          border: InputBorder.none,
         ),
       ),
     );
