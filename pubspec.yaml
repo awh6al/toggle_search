@@ -11,9 +11,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  animated_rotation: ^2.0.0
-  font_awesome_flutter: ^10.1.0
-  google_fonts: ^2.3.2
 
 dev_dependencies:
   flutter_test:
